@@ -13,6 +13,6 @@ Welcome to my daily practice sanctuary. I am a beginner software engineer transi
 - **Day 2:** Forms, Tables, and Lists.
 - **Day 3:** External CSS & The "Sanctuary" Theme.
 - **Day 4:** CSS Box Model & Multi-Language Initiation (Java/Python).
-- **Day 5:** Repository Documentation & Physical Recovery.
+- **Day 5:** Repository Documentation.
 
 > "The beauty of a code lies in its resilience, much like the philosophy of Wabi-Sabi."
