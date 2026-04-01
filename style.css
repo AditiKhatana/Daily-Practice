@@ -75,9 +75,9 @@ th {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: #2d3436;
     padding: 1rem 2rem;
-    color: white;
+    color: #ffffff;
 }
 
 .nav-links {
