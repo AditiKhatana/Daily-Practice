@@ -1,77 +1,33 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>My Preparation Details</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <h1>My Preparation Details</h1>
-        <div class="journey-card">
-          <h2>About My Journey</h2>
-          <p>I am a beginner software engineer transitioning from a curious learner to a real-world builder. Currently, I am documenting my 90-day deep dive into the MERN stack and Java logic, one commit at a time.</p>
-        </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Aditi Codes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-        <div class="flex-container">
-           <div class="flex-item">
-             <h3>My Technical Skills</h3>
-             <p>HTML, CSS, Java, Python...</p>
-           </div>
-    
-           <div class="flex-item">
-             <h3>My Creative Journey</h3>
-             <p>A poet's mind in a developer's world.</p>
-           </div>
-        </div>
-        
-        <h3>Skills I am learning:</h3>
-        <ul style="list-style-type: square;">
-            <li>HTML </li>
-            <li>CSS</li>
-            <li>Java</li>
-            <li>Python</li>
+    <nav class="navbar">
+        <div class="logo">ADITI_CODES</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
         </ul>
-       <h3>Weekly Study Schedule</h3>
-       <table>
-        <tr>
-            <th>Day</th>
-            <th>Hours</th>
-            <th>Topics</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>3</td>
-            <td>Typing+Learn HTML tags (headings, paragraphs, links). Build a simple webpage. Push to GitHub.</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>4</td>
-            <td>Typing+Learn lists, tables, forms. Create a contact form. Push to GitHub.</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>4</td>
-            <td>Typing+CSS basics (selectors, colors, fonts). Style yesterday’s form. Push.</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>4</td>
-            <td>CSS box model (margin, padding, border). Build a 2-column layout. Push. Flexbox basics. Create a responsive navbar. Push.
-</td>
-        </tr>
-        <tr>
-            <td>5</td>
-            <td>5</td>
-            <td>CSS Grid basics. Build a photo gallery. Push. Mini-project: Personal homepage (HTML + CSS). Push final version.</td>
-        </tr>
-       </table>
-       <form action="index.html" method="POST" enctype="multipart/form-data">
-        <div><label for="name">Type Your Name:</label><input type="text" id="name" name="name" required></div>
-        <div><label for="email">Type Your Email:</label><input type="email" id="email" name="email"></div>
-        <div><label for="github">GitHub Profile:</label><input type="url" id="github" name="github" placeholder="https://github.com/AditiKhatana"></div>
-        <div><label for="linkedin">LinkedIn Profile:</label><input type="url" id="linkedin" name="linkedin" placeholder="https://linkedin.com/in/yourname"></div>
-        <div><label for="resume">Upload Resume:</label><input type="file" id="resume" name="resume" accept=".pdf,.doc"></div>
-        <input type="submit" value="Submit"/>
-       </form>
-    </body>
+    </nav>
+
+    <section class="contact-container">
+        <h2>Get In Touch</h2>
+        <p>Looking for a stable, high-trust team in Indore.</p>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5"></textarea>
+            <button type="submit" class="btn-primary">Send Message</button>
+        </form>
+    </section>
+
+</body>
 </html>
