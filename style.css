@@ -112,3 +112,28 @@ body {
     transform: translateY(-2px);
     opacity: 0.9;
 }
+
+.project-grid {
+    padding: 4rem 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    background-color: var(--primary-bg);
+}
+
+.project-card {
+    width: 320px;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden; 
+    border: 1px solid #eee;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
