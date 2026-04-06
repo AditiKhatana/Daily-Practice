@@ -113,12 +113,18 @@ body {
     opacity: 0.9;
 }
 
+.project-section {
+    padding: 60px 10%;
+    background-color: var(--primary-bg);
+}
+
+
 .project-grid {
     padding: 4rem 10%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 2rem;
+    gap: 30 px;
     background-color: var(--primary-bg);
 }
 
@@ -175,3 +181,4 @@ body {
     text-transform: uppercase;
     border-radius: 4px;
 }
+
