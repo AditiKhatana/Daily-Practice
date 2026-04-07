@@ -1,18 +1,25 @@
-# 🚀 90 Days of Engineering Excellence
-### By Aditi Khatana
+# 90-Day Web Development Journey: Week 2 Complete 🏁
+> "Consistency is the bridge between goals and accomplishment."
 
-Welcome to my daily practice sanctuary. I am a beginner software engineer transitioning into the MERN stack and Java logic. This repository is a living document of my consistency, grit, and growth.
+## 🎨 Featured Project: Album Poster UI
+Inspired by Swiss design principles, I experimented with a high-contrast, bold aesthetic.
+- **Palette:** Deep Charcoal, Electric Indigo, and Soft Petal (Refactored to Red/Black/Grey).
+- **Learning:** Focused on typography hierarchy and using whitespace to create "Rawness."
 
-## 🛠️ Tech Stack & Learning Tracks
-- **Frontend:** HTML5, CSS3 (Box Model, Flexbox)
-- **Logic:** Java (Data Structures & Algorithms preparation)
-- **Scripting:** Python (Automation & Syntax)
+## 🛠️ Technical Milestones
+- **Modular CSS:** Transitioned from inline/hardcoded styles to a **Global Design System** using `:root` variables.
+- **Component Engineering:** Built a responsive **Project Gallery** using Flexbox.
+- **Interaction Design:** Implemented smooth state transitions (`0.3s ease`) and elevation logic (`box-shadow` + `translateY`).
 
-## 📈 The Journey Log
-- **Day 1:** Initial Setup & First HTML Page.
-- **Day 2:** Forms, Tables, and Lists.
-- **Day 3:** External CSS & The "Sanctuary" Theme.
-- **Day 4:** CSS Box Model & Multi-Language Initiation (Java/Python).
-- **Day 5:** Repository Documentation.
+## 🧠 Key Concepts Mastered
+1. **Flex-Wrap:** Creating fluid layouts that adapt to any screen size.
+2. **Overflow Management:** Using `overflow: hidden` to maintain component integrity with rounded borders.
+3. **Semantic HTML:** Organizing multi-page navigation for a professional user experience.
 
-> "The beauty of a code lies in its resilience, much like the philosophy of Wabi-Sabi."
+## 🔭 Week 3 Outlook
+- Deep dive into **CSS Grid** for complex layouts.
+- Initial wireframing for the **Sanctuary 3D Interface**.
+- Moving from static visuals to basic DOM manipulation.
+
+---
+*Day 14 of 90 • Indore to Tech Hub Mission*
