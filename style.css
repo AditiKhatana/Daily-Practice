@@ -269,3 +269,24 @@ body {
 .card:hover::before {
     left: 100%;
 }
+
+body.sanctuary-mode {
+    --primary-bg: #0f172a;
+    --text-main: #f8fafc;
+    --accent-color: #10b981;
+    background-color: var(--primary-bg);
+    color: var(--text-main);
+}
+
+.theme-toggle-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background: var(--secondary-bg);
+    color: var(--text-light);
+    border: 1px solid var(--accent-color);
+    border-radius: 30px;
+    cursor: pointer;
+    z-index: 2000;
+}
